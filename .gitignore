@@ -10,7 +10,8 @@
 __pycache__/
 
 diagrams/
-images/
+# To ignore the “images” directory only in the root of your Git repository add leading slash
+/images/
 sandbox/
 
 T-shape/python/reuven

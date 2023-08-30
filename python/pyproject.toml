@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "swe-hero-toolset"
+name = "swe-knowledge-repo"
 version = "0.1.0"
 description = "Yet another mega Python project"
 authors = ["ivanprytula <ivanprytula87@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "swe_hero_toolset"}]
+packages = [{include = "swe_knowledge_repo"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -32,7 +32,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 119
-target-versions = ["py37", "py310",]
+target-versions = ["py39", "py310", "py311",]
 
 [tool.isort]
 profile = "black"
