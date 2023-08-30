@@ -1,0 +1,10 @@
+# Add 'site_source' label to any change to snake_path files
+site_source:
+- any: ['snake_path/**/*']
+
+# Add label when we update file with locked dependencies
+dependencies:
+- any: ['poetry.lock']
+
+github_specific:
+- any: ['.github/**/*', '.gitignore']

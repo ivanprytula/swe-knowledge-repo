@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+
+.env
+
+.venv/
+
+.mypy_cache/
+.ruff_cache/
+__pycache__/
+
+diagrams/
+images/
+sandbox/
+
+T-shape/python/reuven
+T-shape/code-review/.gitkeep
